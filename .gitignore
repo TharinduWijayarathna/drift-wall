@@ -1,0 +1,29 @@
+# Build output
+build/
+dist/
+*.dmg
+*.app
+*.iconset/
+*.icns
+
+# Old prototype (kept locally, not part of the app)
+legacy/
+
+# Xcode / Swift
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Editors
+.vscode/
+.idea/
+*.swp
